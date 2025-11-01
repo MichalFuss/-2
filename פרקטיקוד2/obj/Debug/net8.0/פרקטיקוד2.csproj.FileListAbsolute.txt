@@ -1,0 +1,14 @@
+C:\Users\sara fuss\Desktop\Michal\שנה ב\פרקטיקוד\פרקטיקוד2\פרקטיקוד2\bin\Debug\net8.0\פרקטיקוד2.exe
+C:\Users\sara fuss\Desktop\Michal\שנה ב\פרקטיקוד\פרקטיקוד2\פרקטיקוד2\bin\Debug\net8.0\פרקטיקוד2.deps.json
+C:\Users\sara fuss\Desktop\Michal\שנה ב\פרקטיקוד\פרקטיקוד2\פרקטיקוד2\bin\Debug\net8.0\פרקטיקוד2.runtimeconfig.json
+C:\Users\sara fuss\Desktop\Michal\שנה ב\פרקטיקוד\פרקטיקוד2\פרקטיקוד2\bin\Debug\net8.0\פרקטיקוד2.dll
+C:\Users\sara fuss\Desktop\Michal\שנה ב\פרקטיקוד\פרקטיקוד2\פרקטיקוד2\bin\Debug\net8.0\פרקטיקוד2.pdb
+C:\Users\sara fuss\Desktop\Michal\שנה ב\פרקטיקוד\פרקטיקוד2\פרקטיקוד2\obj\Debug\net8.0\פרקטיקוד2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sara fuss\Desktop\Michal\שנה ב\פרקטיקוד\פרקטיקוד2\פרקטיקוד2\obj\Debug\net8.0\פרקטיקוד2.AssemblyInfoInputs.cache
+C:\Users\sara fuss\Desktop\Michal\שנה ב\פרקטיקוד\פרקטיקוד2\פרקטיקוד2\obj\Debug\net8.0\פרקטיקוד2.AssemblyInfo.cs
+C:\Users\sara fuss\Desktop\Michal\שנה ב\פרקטיקוד\פרקטיקוד2\פרקטיקוד2\obj\Debug\net8.0\פרקטיקוד2.csproj.CoreCompileInputs.cache
+C:\Users\sara fuss\Desktop\Michal\שנה ב\פרקטיקוד\פרקטיקוד2\פרקטיקוד2\obj\Debug\net8.0\פרקטיקוד2.dll
+C:\Users\sara fuss\Desktop\Michal\שנה ב\פרקטיקוד\פרקטיקוד2\פרקטיקוד2\obj\Debug\net8.0\refint\פרקטיקוד2.dll
+C:\Users\sara fuss\Desktop\Michal\שנה ב\פרקטיקוד\פרקטיקוד2\פרקטיקוד2\obj\Debug\net8.0\פרקטיקוד2.pdb
+C:\Users\sara fuss\Desktop\Michal\שנה ב\פרקטיקוד\פרקטיקוד2\פרקטיקוד2\obj\Debug\net8.0\פרקטיקוד2.genruntimeconfig.cache
+C:\Users\sara fuss\Desktop\Michal\שנה ב\פרקטיקוד\פרקטיקוד2\פרקטיקוד2\obj\Debug\net8.0\ref\פרקטיקוד2.dll
