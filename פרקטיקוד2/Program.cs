@@ -1,46 +1,21 @@
 ﻿using System.Text.RegularExpressions;
 using פרקטיקוד2;
 
-async Task<string> Load(string url)
-{
-    HttpClient client = new HttpClient();
-    var response = await client.GetAsync(url);
-    var html = await response.Content.ReadAsStringAsync();
-    return html;
-}
 string url = "https://www.example.com";
 var html = await Load(url);
 var cleanHtml = new Regex("\\s").Replace(html, "");
-var HtmlLines = new Regex("<(.*?)>").Split(cleanHtml).Where(s => s.Length > 0);
-HtmlElement root = new HtmlElement();
-HtmlElement currentElement = root;
-פרקטיקוד2\Program.cs
-using System.Text.RegularExpressions;
-using System.Linq;
-using פרקטיקוד2;
-
-async Task<string> Load(string url)
-{
-    HttpClient client = new HttpClient();
-    var response = await client.GetAsync(url);
-    var html = await response.Content.ReadAsStringAsync();
-    return html;
-}
-string url = "https://www.example.com";
-var html = await Load(url);
-var cleanHtml = new Regex("\\s").Replace(html, "");
-var HtmlLines = new Regex("<(.*?)>").Split(cleanHtml).Where(s => s.Length > 0);
+var htmlLines = new Regex("<(.*?)>").Split(cleanHtml).Where(s => s.Length > 0);
 
 HtmlElement root = new HtmlElement();
 HtmlElement currentElement = root;
 
-foreach (var line in HtmlLines)
+foreach (var line in htmlLines)
 {
-    
     var tagMatch = Regex.Match(line, @"^\/?([^\s\/>]+)");
+
+    // אם לא מצאנו תגית (מקרה של טקסט פנימי)
     if (!tagMatch.Success)
     {
-       
         if (currentElement != null)
             currentElement.InnerHtml = line;
         continue;
@@ -50,16 +25,19 @@ foreach (var line in HtmlLines)
     bool isClosingTag = line.StartsWith("/");
     bool isHtmlClosing = isClosingTag && string.Equals(tagName, "html", StringComparison.OrdinalIgnoreCase);
 
+    // אם הגענו לתגית סגירה של html, אז עצור
     if (isHtmlClosing)
         break;
 
     if (isClosingTag)
     {
+        // אם מדובר בתגית סגירה, חזור לאבא
         if (currentElement?.Parent != null)
             currentElement = currentElement.Parent;
         continue;
     }
 
+    // אם התגית לא מוכרת, תחשב אותה כטקסט פנימי
     if (!HtmlHelper.Tags.AllTags.Contains(tagName, StringComparer.OrdinalIgnoreCase))
     {
         if (currentElement != null)
@@ -67,60 +45,80 @@ foreach (var line in HtmlLines)
         continue;
     }
 
+    // יצירת אלמנט חדש
     HtmlElement newElement = new HtmlElement
     {
         Name = tagName,
         Parent = currentElement
     };
 
+    // הוספת את האלמנט החדש ל-Children של האלמנט הנוכחי
     currentElement.Children.Add(newElement);
 
+    // פרק את השארית של המחרוזת אחרי שם התגית
     var remainder = line.Substring(tagMatch.Length).Trim();
 
+    // בדוק אם זה אלמנט עצמאי (כמו <br />)
     bool endsWithSlash = remainder.EndsWith("/");
-    bool listedSelfClosing = HtmlHelper.Tags.SelfClosingTags
+    bool isSelfClosing = endsWithSlash || HtmlHelper.Tags.SelfClosingTags
         .Contains(tagName, StringComparer.OrdinalIgnoreCase);
-    bool isSelfClosing = endsWithSlash || listedSelfClosing;
 
-    var attrRegex = new Regex(@"([^\s=]+)(?:=(?:""([^""]*)""|'([^']*)'|([^\s""]+)))?");
-    foreach (Match m in attrRegex.Matches(remainder))
-    {
-        if (!m.Success) continue;
-        var attrName = m.Groups[1].Value;
-        string attrValue = null;
-        if (m.Groups[2].Success) attrValue = m.Groups[2].Value;
-        else if (m.Groups[3].Success) attrValue = m.Groups[3].Value;
-        else if (m.Groups[4].Success) attrValue = m.Groups[4].Value;
-        else attrValue = string.Empty; // boolean attribute
-
-        // store attribute in the Attributes list (as raw "name=value" or "name" for boolean)
-        if (attrValue.Length > 0)
-            newElement.Attributes.Add($"{attrName}={attrValue}");
-        else
-            newElement.Attributes.Add(attrName);
-
-        // handle special attributes
-        if (string.Equals(attrName, "class", StringComparison.OrdinalIgnoreCase))
-        {
-            // classes separated by spaces (if any). If no spaces (because whitespace was stripped earlier),
-            // this will still add the single value.
-            var classes = attrValue.Split(new[] { ' ' }, StringSplitOptions.RemoveEmptyEntries);
-            foreach (var c in classes)
-                newElement.Classes.Add(c);
-        }
-        else if (string.Equals(attrName, "id", StringComparison.OrdinalIgnoreCase))
-        {
-            // HtmlElement.Id is an int in the model; try to parse numeric id, otherwise ignore.
-            if (int.TryParse(attrValue, out var numericId))
-                newElement.Id = numericId;
-            // if Id is not numeric, we do not set it because model's Id is an int.
-        }
-    }
-
-    // if the element is NOT self-closing, descend into it (it becomes the current element)
+    // אם זה לא אלמנט עצמאי, יש צורך לשמור את האלמנט הנוכחי כאלמנט אובייקט
     if (!isSelfClosing)
     {
         currentElement = newElement;
     }
-    // else: leave currentElement unchanged
+
+    // חילוץ Attributes מתוך התגית
+    var attrMatches = Regex.Matches(remainder, @"([^\s=]+)(?:=(?:""([^""]*)""|'([^']*)'|([^\s""]+)))?");
+    foreach (Match match in attrMatches)
+    {
+        string attributeName = match.Groups[1].Value;
+        string attributeValue = match.Groups[2].Value ?? match.Groups[3].Value ?? match.Groups[4].Value;
+
+        if (attributeName.Equals("class", StringComparison.OrdinalIgnoreCase))
+        {
+            // אם יש את Attribute "class", פרק אותו לכמה חלקים
+            currentElement.Classes.AddRange(attributeValue.Split(' '));
+        }
+        else if (attributeName.Equals("id", StringComparison.OrdinalIgnoreCase))
+        {
+            // אם יש את Attribute "id", שמור אותו ב-Id
+            currentElement.Id = (int.TryParse(attributeValue, out int id) ? id : 0).ToString();
+        }
+
+        // הוסף את ה-Attribute לרשימת ה-Attributes
+        currentElement.Attributes.Add(attributeName);
+    }
 }
+
+
+// אפשר להוסיף כאן קוד נוסף להדפסת העץ או פעולות נוספות
+PrintElementTree(root);
+
+
+// פונקציה להורדת ה-HTML מאתר
+static async Task<string> Load(string url)
+{
+    HttpClient client = new HttpClient();
+    var response = await client.GetAsync(url);
+    var html = await response.Content.ReadAsStringAsync();
+    return html;
+}
+
+// פונקציה להדפסת העץ
+static void PrintElementTree(HtmlElement element, string indent = "")
+{
+    Console.WriteLine($"{indent}<{element.Name}>");
+
+    if (!string.IsNullOrEmpty(element.InnerHtml))
+        Console.WriteLine($"{indent}  {element.InnerHtml}");
+
+    foreach (var child in element.Children)
+    {
+        PrintElementTree(child, indent + "  ");
+    }
+
+    Console.WriteLine($"{indent}</{element.Name}>");
+}
+    

@@ -12,3 +12,17 @@ C:\Users\sara fuss\Desktop\Michal\שנה ב\פרקטיקוד\פרקטיקוד2\�
 C:\Users\sara fuss\Desktop\Michal\שנה ב\פרקטיקוד\פרקטיקוד2\פרקטיקוד2\obj\Debug\net8.0\פרקטיקוד2.pdb
 C:\Users\sara fuss\Desktop\Michal\שנה ב\פרקטיקוד\פרקטיקוד2\פרקטיקוד2\obj\Debug\net8.0\פרקטיקוד2.genruntimeconfig.cache
 C:\Users\sara fuss\Desktop\Michal\שנה ב\פרקטיקוד\פרקטיקוד2\פרקטיקוד2\obj\Debug\net8.0\ref\פרקטיקוד2.dll
+Y:\Groups\group_3\פוס מיכל\פרקטיקוד2\פרקטיקוד2\obj\Debug\net8.0\פרקטיקוד2.GeneratedMSBuildEditorConfig.editorconfig
+Y:\Groups\group_3\פוס מיכל\פרקטיקוד2\פרקטיקוד2\obj\Debug\net8.0\פרקטיקוד2.AssemblyInfoInputs.cache
+Y:\Groups\group_3\פוס מיכל\פרקטיקוד2\פרקטיקוד2\obj\Debug\net8.0\פרקטיקוד2.AssemblyInfo.cs
+Y:\Groups\group_3\פוס מיכל\פרקטיקוד2\פרקטיקוד2\obj\Debug\net8.0\פרקטיקוד2.csproj.CoreCompileInputs.cache
+Y:\Groups\group_3\פוס מיכל\פרקטיקוד2\פרקטיקוד2\obj\Debug\net8.0\פרקטיקוד2.dll
+Y:\Groups\group_3\פוס מיכל\פרקטיקוד2\פרקטיקוד2\obj\Debug\net8.0\refint\פרקטיקוד2.dll
+Y:\Groups\group_3\פוס מיכל\פרקטיקוד2\פרקטיקוד2\obj\Debug\net8.0\פרקטיקוד2.pdb
+Y:\Groups\group_3\פוס מיכל\פרקטיקוד2\פרקטיקוד2\bin\Debug\net8.0\פרקטיקוד2.exe
+Y:\Groups\group_3\פוס מיכל\פרקטיקוד2\פרקטיקוד2\bin\Debug\net8.0\פרקטיקוד2.deps.json
+Y:\Groups\group_3\פוס מיכל\פרקטיקוד2\פרקטיקוד2\bin\Debug\net8.0\פרקטיקוד2.runtimeconfig.json
+Y:\Groups\group_3\פוס מיכל\פרקטיקוד2\פרקטיקוד2\bin\Debug\net8.0\פרקטיקוד2.dll
+Y:\Groups\group_3\פוס מיכל\פרקטיקוד2\פרקטיקוד2\bin\Debug\net8.0\פרקטיקוד2.pdb
+Y:\Groups\group_3\פוס מיכל\פרקטיקוד2\פרקטיקוד2\obj\Debug\net8.0\פרקטיקוד2.genruntimeconfig.cache
+Y:\Groups\group_3\פוס מיכל\פרקטיקוד2\פרקטיקוד2\obj\Debug\net8.0\ref\פרקטיקוד2.dll

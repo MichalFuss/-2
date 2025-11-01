@@ -1,18 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\sara fuss\\Desktop\\Michal\\\u05E9\u05E0\u05D4 \u05D1\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05D3\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05D32\\",
+  "WorkspaceRootPath": "E:\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05D3\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05D32\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2797BC92-63D0-4C2C-88BA-D114DA02B80E}|\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05D32\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05D32.csproj|c:\\users\\sara fuss\\desktop\\michal\\\u05E9\u05E0\u05D4 \u05D1\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05D3\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05D32\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05D32\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2797BC92-63D0-4C2C-88BA-D114DA02B80E}|\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05D32\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05D32.csproj|solutionrelative:\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05D32\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2797BC92-63D0-4C2C-88BA-D114DA02B80E}|\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05D32\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05D32.csproj|c:\\users\\sara fuss\\desktop\\michal\\\u05E9\u05E0\u05D4 \u05D1\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05D3\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05D32\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05D32\\htmlelement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2797BC92-63D0-4C2C-88BA-D114DA02B80E}|\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05D32\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05D32.csproj|e:\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05D3\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05D32\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05D32\\htmlelement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2797BC92-63D0-4C2C-88BA-D114DA02B80E}|\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05D32\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05D32.csproj|solutionrelative:\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05D32\\htmlelement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2797BC92-63D0-4C2C-88BA-D114DA02B80E}|\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05D32\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05D32.csproj|c:\\users\\sara fuss\\desktop\\michal\\\u05E9\u05E0\u05D4 \u05D1\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05D3\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05D32\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05D32\\htmlhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2797BC92-63D0-4C2C-88BA-D114DA02B80E}|\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05D32\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05D32.csproj|e:\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05D3\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05D32\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05D32\\htmlhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2797BC92-63D0-4C2C-88BA-D114DA02B80E}|\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05D32\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05D32.csproj|solutionrelative:\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05D32\\htmlhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2797BC92-63D0-4C2C-88BA-D114DA02B80E}|\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05D32\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05D32.csproj|e:\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05D3\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05D32\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05D32\\selector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2797BC92-63D0-4C2C-88BA-D114DA02B80E}|\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05D32\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05D32.csproj|solutionrelative:\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05D32\\selector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2797BC92-63D0-4C2C-88BA-D114DA02B80E}|\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05D32\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05D32.csproj|e:\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05D3\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05D32\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05D32\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2797BC92-63D0-4C2C-88BA-D114DA02B80E}|\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05D32\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05D32.csproj|solutionrelative:\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05D32\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,54 +26,60 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "HtmlHelper.cs",
-              "DocumentMoniker": "C:\\Users\\sara fuss\\Desktop\\Michal\\\u05E9\u05E0\u05D4 \u05D1\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05D3\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05D32\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05D32\\HtmlHelper.cs",
-              "RelativeDocumentMoniker": "\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05D32\\HtmlHelper.cs",
-              "ToolTip": "C:\\Users\\sara fuss\\Desktop\\Michal\\\u05E9\u05E0\u05D4 \u05D1\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05D3\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05D32\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05D32\\HtmlHelper.cs",
-              "RelativeToolTip": "\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05D32\\HtmlHelper.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBkAAAABAAAAAAAAAA==",
+              "Title": "Selector.cs",
+              "DocumentMoniker": "E:\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05D3\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05D32\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05D32\\Selector.cs",
+              "RelativeDocumentMoniker": "\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05D32\\Selector.cs",
+              "ToolTip": "E:\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05D3\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05D32\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05D32\\Selector.cs",
+              "RelativeToolTip": "\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05D32\\Selector.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAIwBkAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-27T18:08:55.693Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-30T11:58:13.226Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "HtmlHelper.cs",
+              "DocumentMoniker": "E:\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05D3\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05D32\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05D32\\HtmlHelper.cs",
+              "RelativeDocumentMoniker": "\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05D32\\HtmlHelper.cs",
+              "ToolTip": "E:\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05D3\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05D32\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05D32\\HtmlHelper.cs",
+              "RelativeToolTip": "\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05D32\\HtmlHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T18:08:55.693Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "HtmlElement.cs",
-              "DocumentMoniker": "C:\\Users\\sara fuss\\Desktop\\Michal\\\u05E9\u05E0\u05D4 \u05D1\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05D3\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05D32\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05D32\\HtmlElement.cs",
+              "DocumentMoniker": "E:\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05D3\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05D32\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05D32\\HtmlElement.cs",
               "RelativeDocumentMoniker": "\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05D32\\HtmlElement.cs",
-              "ToolTip": "C:\\Users\\sara fuss\\Desktop\\Michal\\\u05E9\u05E0\u05D4 \u05D1\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05D3\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05D32\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05D32\\HtmlElement.cs",
+              "ToolTip": "E:\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05D3\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05D32\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05D32\\HtmlElement.cs",
               "RelativeToolTip": "\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05D32\\HtmlElement.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAUwAwAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAGQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-27T15:21:01.246Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\sara fuss\\Desktop\\Michal\\\u05E9\u05E0\u05D4 \u05D1\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05D3\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05D32\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05D32\\Program.cs",
+              "DocumentMoniker": "E:\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05D3\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05D32\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05D32\\Program.cs",
               "RelativeDocumentMoniker": "\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05D32\\Program.cs",
-              "ToolTip": "C:\\Users\\sara fuss\\Desktop\\Michal\\\u05E9\u05E0\u05D4 \u05D1\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05D3\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05D32\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05D32\\Program.cs",
+              "ToolTip": "E:\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05D3\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05D32\\\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05D32\\Program.cs",
               "RelativeToolTip": "\u05E4\u05E8\u05E7\u05D8\u05D9\u05E7\u05D5\u05D32\\Program.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAowHsAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-27T15:09:51.102Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-27T15:09:51.102Z"
             }
           ]
         }
